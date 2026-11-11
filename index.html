@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Intake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Profile Intake</h2>
+        <form id="profileForm" action="ProfileServlet" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Ahmad, Alpha" required>
+            </div>
+
+            <div class="form-group">
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" name="studentId" placeholder="e.g. SEC-8849, 123456789" required>
+            </div>
+
+            <div class="form-group">
+                <label for="programme">Programme</label>
+                <input type="text" id="programme" name="programme" placeholder="e.g. IT, BioChem" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="operator@domain.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="hobbies">Hobbies</label>
+                <input type="text" id="hobbies" name="hobbies" placeholder="Deep-sea diving, game modding...">
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Self-Introduction</label>
+                <textarea id="bio" name="bio" rows="4" placeholder="Brief background..."></textarea>
+            </div>
+
+            <button type="submit">Deploy Credentials</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

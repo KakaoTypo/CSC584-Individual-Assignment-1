@@ -32,6 +32,6 @@ Security Features
 
 Application Screenshots
 Input Interface (`index.html`)
-![Input Form](image.png)
+![Input Form](imaga.png)
 Dossier Output (`profile.jsp`)
 ![Profile Output](imaga(1).png)

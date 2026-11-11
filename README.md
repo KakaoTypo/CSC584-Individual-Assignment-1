@@ -10,8 +10,6 @@ A Java EE web application built using NetBeans, GlassFish, Servlets, and JSP. It
 4. **Styling:** `style.css` provides a responsive, clean dashboard UI[cite: 1].
 
 ## Project Structure
-
-```text
 CSC584-Individual-Assignment-1/
 ├── Web Pages/
 │   ├── index.html
@@ -31,3 +29,9 @@ How to Run
 Security Features
 - Server-Side Sanitization: Encodes special characters in ProfileServlet.java to prevent Cross-Site Scripting (XSS).
 - Client-Side Validation: Verifies required fields and email formatting via script.js before submission.
+
+Application Screenshots
+Input Interface (`index.html`)
+![Input Form](image.png)
+Dossier Output (`profile.jsp`)
+![Profile Output](imaga(1).png)
